@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>世界美食 · 风味之旅</title>
+  <meta name="description" content="探索世界各地经典美食的产地、传统做法与风味品鉴">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- 动态背景光晕 -->
+  <div class="bg-orbs">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+  </div>
+
+  <header class="glass-header">
+    <div class="logo">世界美食</div>
+    <nav>
+      <a href="#home">首页</a>
+      <a href="#cuisines">美食地图</a>
+      <a href="#about">关于</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section id="home" class="hero">
+      <div class="hero-content glass-panel">
+        <h1>风味无界<br><span>世界美食之旅</span></h1>
+        <p>从产地到餐桌，从传统做法到舌尖品鉴<br>带你感受每一道经典美食背后的文化与风土</p>
+        <a href="#cuisines" class="btn-primary">开启探索</a>
+      </div>
+    </section>
+
+    <!-- Cuisine Cards -->
+    <section id="cuisines" class="cuisines">
+      <h2 class="section-title">经典美食精选</h2>
+      <p class="section-subtitle">六大代表性风味，产地 · 做法 · 品鉴</p>
+
+      <div class="card-grid">
+        <!-- 意大利 -->
+        <article class="cuisine-card glass-card" data-cuisine="italian">
+          <div class="card-header">
+            <span class="flag">🇮🇹</span>
+            <h3>意大利 · 那不勒斯披萨</h3>
+            <span class="origin">产地：意大利那不勒斯</span>
+          </div>
+          <div class="card-body">
+            <div class="detail">
+              <h4>具体产地</h4>
+              <p>诞生于那不勒斯历史中心区，2017年被联合国教科文组织列入非物质文化遗产。使用坎帕尼亚大区的圣马扎诺番茄与莫扎雷拉奶酪。</p>
+            </div>
+            <div class="detail">
+              <h4>传统做法</h4>
+              <p>面团仅用面粉、水、盐与酵母，发酵至少8小时。用手拉伸成圆形，薄底厚边。石窑约485°C高温烘烤60–90秒，边缘鼓起形成「玉米穗」状。</p>
+            </div>
+            <div class="detail tasting">
+              <h4>风味品鉴</h4>
+              <p>外酥内软，番茄酸甜清新，奶酪拉丝绵密。边缘焦香，中心汁水丰盈。入口先感小麦的麦香，再是番茄与罗勒的清香交织。</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- 日本 -->
+        <article class="cuisine-card glass-card" data-cuisine="japanese">
+          <div class="card-header">
+            <span class="flag">🇯🇵</span>
+            <h3>日本 · 江户前寿司</h3>
+            <span class="origin">产地：日本东京（江户）</span>
+          </div>
+          <div class="card-body">
+            <div class="detail">
+              <h4>具体产地</h4>
+              <p>起源于江户时代（今东京）的街头快餐。使用东京湾与周边海域新鲜鱼获，搭配醋饭，强调「时令」与「鲜度」。</p>
+            </div>
+            <div class="detail">
+              <h4>传统做法</h4>
+              <p>寿司米用红醋或米醋调味，冷却至体温。鱼生切工讲究「一刀切」。捏寿司时左手握饭、右手放鱼，力度均匀，鱼身与饭团完美贴合。</p>
+            </div>
+            <div class="detail tasting">
+              <h4>风味品鉴</h4>
+              <p>鱼肉入口即化，脂肪层次分明。醋饭微酸提鲜，与鱼脂形成平衡。顶级寿司追求「余韵」——吞咽后仍能感受到海的鲜甜与米的甘醇。</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- 中国四川 -->
+        <article class="cuisine-card glass-card" data-cuisine="sichuan">
+          <div class="card-header">
+            <span class="flag">🇨🇳</span>
+            <h3>中国 · 四川麻婆豆腐</h3>
+            <span class="origin">产地：四川成都</span>
+          </div>
+          <div class="card-body">
+            <div class="detail">
+              <h4>具体产地</h4>
+              <p>源自清代成都万福桥陈麻婆豆腐店。使用四川特有的郫县豆瓣、汉源花椒与嫩豆腐，是川菜「麻、辣、烫、香、酥、嫩、鲜、活」的代表。</p>
+            </div>
+            <div class="detail">
+              <h4>传统做法</h4>
+              <p>牛肉末爆香后下郫县豆瓣炒出红油，加入豆豉、蒜苗。豆腐用开水焯过保持嫩滑，最后撒上大量花椒粉与葱花，勾薄芡。</p>
+            </div>
+            <div class="detail tasting">
+              <h4>风味品鉴</h4>
+              <p>麻味先至，花椒的清香麻感在舌尖跳跃；随后是豆瓣的醇厚辣香。豆腐嫩滑如云，牛肉香酥。整体层次丰富，越吃越上瘾。</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- 墨西哥 -->
+        <article class="cuisine-card glass-card" data-cuisine="mexican">
+          <div class="card-header">
+            <span class="flag">🇲🇽</span>
+            <h3>墨西哥 · 瓦哈卡鼹鼠酱</h3>
+            <span class="origin">产地：墨西哥瓦哈卡州</span>
+          </div>
+          <div class="card-body">
+            <div class="detail">
+              <h4>具体产地</h4>
+              <p>瓦哈卡被誉为「墨西哥美食之都」。鼹鼠酱（Mole）种类繁多，以「七种鼹鼠酱」闻名，使用当地干辣椒、巧克力、香料与坚果。</p>
+            </div>
+            <div class="detail">
+              <h4>传统做法</h4>
+              <p>多种干辣椒（安乔、帕西拉、穆拉托）先烤再浸泡去籽。与芝麻、杏仁、葡萄干、巧克力、肉桂等一起研磨成细腻酱汁，慢火炖煮数小时。</p>
+            </div>
+            <div class="detail tasting">
+              <h4>风味品鉴</h4>
+              <p>复杂而深邃：先有辣椒的温和烟熏辣，随后是巧克力的微苦与坚果的醇香。甜、苦、辣、香在口腔中层层展开，适合搭配火鸡或鸡肉。</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- 法国 -->
+        <article class="cuisine-card glass-card" data-cuisine="french">
+          <div class="card-header">
+            <span class="flag">🇫🇷</span>
+            <h3>法国 · 普罗旺斯炖菜</h3>
+            <span class="origin">产地：法国普罗旺斯</span>
+          </div>
+          <div class="card-body">
+            <div class="detail">
+              <h4>具体产地</h4>
+              <p>源自法国东南部普罗旺斯地区。使用当地夏日成熟的茄子、西葫芦、彩椒、番茄与橄榄油，是地中海饮食的经典代表。</p>
+            </div>
+            <div class="detail">
+              <h4>传统做法</h4>
+              <p>每种蔬菜分别用橄榄油慢煎至软糯上色，再与洋葱、蒜、百里香、迷迭香一起分层入锅，小火焖炖。最后撒上新鲜罗勒。</p>
+            </div>
+            <div class="detail tasting">
+              <h4>风味品鉴</h4>
+              <p>蔬菜各自保持独立风味，却又融合出阳光般的甜香。橄榄油带来丝滑口感，香草清新提神。入口温暖而明亮，是夏日的味道。</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- 印度 -->
+        <article class="cuisine-card glass-card" data-cuisine="indian">
+          <div class="card-header">
+            <span class="flag">🇮🇳</span>
+            <h3>印度 · 旁遮普黄油鸡</h3>
+            <span class="origin">产地：印度旁遮普 / 德里</span>
+          </div>
+          <div class="card-body">
+            <div class="detail">
+              <h4>具体产地</h4>
+              <p>起源于德里的Moti Mahal餐厅，后成为旁遮普料理的代表。使用坦都里烤鸡与番茄奶油酱，是印度最受欢迎的国际菜肴之一。</p>
+            </div>
+            <div class="detail">
+              <h4>传统做法</h4>
+              <p>鸡腿肉用酸奶、姜蒜、红辣椒粉腌制后入坦多里炉烤制。酱汁以黄油炒香香料，加入番茄泥与鲜奶油慢煮，最后与烤鸡混合。</p>
+            </div>
+            <div class="detail tasting">
+              <h4>风味品鉴</h4>
+              <p>酱汁丝滑浓郁，番茄的酸甜与奶油的醇厚完美平衡。鸡外焦里嫩，带有炭火香。香料层次丰富却不呛口，适合搭配馕或香米饭。</p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="about">
+      <div class="glass-panel about-panel">
+        <h2>关于本站</h2>
+        <p>本站精选六大世界经典美食，从具体产地、传统制作方法到风味品鉴维度，带你深入了解每一道菜背后的风土与匠心。</p>
+        <p>设计采用玻璃拟态（Glassmorphism）风格，追求高质感与沉浸式阅读体验。</p>
+        <p class="credit">Built with ❤️ for GitHub Pages · 世界美食 · 风味之旅</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="glass-footer">
+    <p>&copy; <span id="year"></span> 世界美食 · 风味之旅 · Hosted on GitHub Pages</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
